@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <title>Página de Login</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+     <script src="main.js"></script>
+</head>
+<body>
+    <div class="main-login">
+        <div class="login">
+            <div class="card-login">
+                <h1>LOGIN</h1>
+                <div class="text-field">
+                    <label for="usuario">Usuário</label>
+                    <input type="text" name="usuario" placeholder="Usuário">
+                    <span class="material-icons" id="user-icon">person</span>
+                </div>
+                <div class="text-field">
+                    <label for="senha" class="senha-label">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha" id="senha">
+                    <span class="material-icons" id="password-visivel" onclick="mostrarSenha(this)">visibility_off</span>
+
+                </div>        
+                 <button class="btn-login" onclick="fazerLogin(this)"><a onclick="fazerLogin(this)" href="">Entrar</a>
+                </button>
+                 <p class="text-singup">Ainda não tem uma conta? <a href="maintenance-animate.svg">Cadastre-se</a> agora!</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

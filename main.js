@@ -11,10 +11,7 @@ function mostrarSenha(element) {
 }
 
 function fazerLogin(button) {
-  button.classList.add('loading');
-    setTimeout(() => {
-    button.classList.remove('loading');
-  }, 3000);
+  alert('Olá, obrigado por visitar meu projeto , veja mais projetos como esse em https://github.com/nathatargino \uD83D\uDE03')
 }
 
 
